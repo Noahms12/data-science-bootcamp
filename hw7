@@ -1,0 +1,37 @@
+Homework 7
+
+1.⁠ ⁠How do you assess the statistical significance of an insight?
+Statistical significance of an insight can be found by performing an appropriate statistical test, such as a Z-test. This works by forming a null hypothesis, 
+which assumes no influence from the manipulated variable, then using the statistical test to find the probability of the measured results, given that null hypotheses.
+If that probability is below a certain amount, ususally 0.05, then the hypothesis/insight is significant.
+
+2.⁠ ⁠What is the Central Limit Theorem? Explain it. Why is it important?
+The CLT says that as the sample size of an indendently and randomly sampled population increases, the mean will tend towards a normal distribution. This
+is important because it means that with a large enough sample size, analysis which can usually only be done on normal distributed populations can be done
+on differently distributed populations.
+
+3.⁠ ⁠What is the statistical power?
+The power of a test is the probability that it will successfully identify significant hypotheses. In other words, power is the probability that the 
+test will correctly rejet the null hypothesis.
+
+4.⁠ ⁠How do you control for biases?
+There are many different biases, and therefore many different ways to mitigate them. One mentioned in the lesson was confirmation bias. This can be mitigated through
+double blind experimentation, random sampling, and peer review. Another type of bias is survivorship bias. This takes place when the dataset randomly chosen from has 
+some previous elements removed/die/leave leading to a preselected sample, rather than a truly random sample. This can be mitigated through more effective random sampling
+or adjustments based on estimation.
+
+5.⁠ ⁠What are confounding variables?
+A confounding variable is some effect which influences the dependent and independent variables leading to conclusions which aren't necessarily accurate.
+To give an example if one is measuring the speed of track runners at different schools, but one school had a grass track, and one school had a turf track
+this could lead to significant differences, not necessarily due to the actual runners, but rather due the the track the sampling took place on.
+In this example, the track material would be the confounding variable. The way to avoid confounding variables is through improving sampling methods, making
+sure to keep as many variables the same between the tests as possible, other than the independent variable. 
+
+6.⁠ ⁠What is A/B testing?
+A/B testing is a sampling method where two options are tested against one another in a comparison. Subjects may choose between the two options, and several
+tests can be performed on the data including the likely range in which the true population proportion lies, or whether the population statistically significantly
+leans towards one option or another. 
+
+7.⁠ ⁠What are confidence intervals?
+Confidence intervals are ranges in which the true population value could lie. Since usually it isn't possible to sample the entire population, 
+  confidence intervals can give a range, inside of which there is a very high chance (ususally 0.95) of the true population proportion lying. 
