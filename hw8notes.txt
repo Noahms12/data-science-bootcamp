@@ -1,0 +1,30 @@
+
+**Inertia** -- sum of squared errors for each cluster
+- low inertia = dense clusters
+- Ranges from -inf to +inf
+
+**Silhouette Score** -- measure of how far apart clusters are
+- ranges from -1 to 1
+- high silhouette Score = clusters are well separated
+
+1. Repeat the above exercise for different values of k
+ - How do the inertia and silhouette scores change?
+  
+  k=2, I = 12.14368828157972, S = 0.6294675561906644
+  k=3, I = 7.138647703985377, S = 0.48247222154221125
+  k=4, I = 5.541657763082494, S = 0.4435001045329514
+  k=5, I = 4.60340576087902, S = 0.3603180414853914
+
+  Both Inertia and Silhouette score decrease as k increases
+  
+  
+ - What if you don't scale your features?
+  k=2, I = 152.36870647733903, S = 0.6808136202936816
+  k=3, I = 78.94084142614602, S = 0.5525919445499757
+  k=4, I = , S = 
+  k=5, I = , S = 
+  
+ - Is there a 'right' k? Why or why not?
+
+
+2. Repeat the following exercise for food nutrients dataset
