@@ -21,10 +21,14 @@
  - What if you don't scale your features?
   k=2, I = 152.36870647733903, S = 0.6808136202936816
   k=3, I = 78.94084142614602, S = 0.5525919445499757
-  k=4, I = , S = 
-  k=5, I = , S = 
+  k=4, I = 57.473273265494925, S = 0.49511999553021513
+  k=5, I = 49.86865426388461, S = 0.3722867137706821
   
  - Is there a 'right' k? Why or why not?
 
+There is no right k. It depends on the data and context. One way to find the right k is to look for the elbow point of the inertia. 
+
 
 2. Repeat the following exercise for food nutrients dataset
+
+
